@@ -1,0 +1,669 @@
+/* Make Call Number in brief results bold */
+prm-brief-result > div:nth-child(4) > span:nth-child(2) > span:nth-child(2) > prm-highlight:nth-child(1) > span:nth-child(1) {
+  font-weight:700;
+}
+
+prm-explore-main * :focus, *:focus {
+ outline: 5px double #377aff !important;
+  outline-style: double !important;
+}
+
+* {
+    box-sizing:border-box !important;
+}
+
+prm-action-list button{
+    color: #173572 !important;
+}
+
+.md-button.icon-button-with-text, prm-action-list > md-nav-bar .md-nav-item .md-button, .saved-query-list > md-nav-bar .md-nav-item .md-button {
+    font-size:12px;
+}
+
+
+prm-skip-to .md-button:focus {
+    width: 130px;
+}
+.md-button {
+    text-transform: none;
+    white-space:normal;
+    overflow: visible;
+}
+
+.accessible-brandeis {
+    width: 1px;
+    height: 1px;
+    left: -1000em;
+    overflow: hidden;
+    position: absolute;
+    color:white;
+    font-size: 1em;
+    background-color: #173572;
+}
+.accessible-brandeis:focus {
+    position: static;
+    width: 10em;
+    height: auto;
+    left: inherit;
+    overflow: visible;
+}
+/* My Account and Favorites CSS */
+
+prm-favorites-edit-labels-menu, prm-favorites-labels {
+  display:none;
+}
+
+/* Search Bar background CSS */
+
+
+
+prm-search-bar > .advanced-search-backdrop, prm-search-bar, prm-journals-search-bar, prm-browse-search-bar, prm-atoz-search-bar {
+  background-image: url('../img/STACKS-IMG_2767.jpg') !important; 
+  background-position: 0px 0px;
+  background-repeat:no-repeat;
+  background-size:100%;
+  background-color: black;
+
+}
+
+prm-alphabet-toolbar {
+    background: #eee;
+}
+
+prm-search-bar, prm-journals-search-bar, prm-browse-search-bar {
+    border-top: 1px solid #737f93;
+    border-bottom: 1px solid #737f93;
+}
+
+button.switch-to-advanced:hover, button.switch-to-simple:hover {
+     background-color:#e7e9ed !important;
+}
+
+button.switch-to-advanced, button.switch-to-simple{
+
+  background-color:white !important;
+  padding-top:3px;
+
+}
+
+.__gt-xs prm-browse-search-bar .search-elements-wrapper.simple-mode .simple-search-wrapper, .__gt-xs prm-journals-search-bar .search-elements-wrapper.simple-mode .simple-search-wrapper, .__gt-xs prm-search-bar .search-elements-wrapper.simple-mode .simple-search-wrapper, .__gt-xs prm-tags-search-bar .search-elements-wrapper.simple-mode .simple-search-wrapper, .default-shadow-on-dark, prm-alphabet-toolbar .md-button.active, prm-alphabet-toolbar .md-button.active.md-focused, prm-alphabet-toolbar .md-button.active:focus, prm-alphabet-toolbar .md-button.active:hover, prm-browse-search-bar .classic-input, prm-tags-search-bar .classic-input, .switch-to-advanced, .switch-to-simple {
+	box-shadow: 0 2px 20px 0 rgba(0,0,0,.9);
+}
+
+prm-alphabet-toolbar .md-button.active {
+    background-color: #173572;
+    color: white;
+}
+
+prm-journals-search-bar > div:first-child > div:nth-child(2) {
+	box-shadow: 0 2px 20px 0 rgba(0,0,0,.9);    
+}
+
+prm-journals-search-bar .classic-input {
+    border-radius: unset;
+    box-shadow:unset;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+prm-alphabet-toolbar {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius:3px;
+}
+
+.prm-background, html, body, prm-search .ui-blocker, prm-featured-results .horizontal-content-container .horizontal-content-control, prm-search-bar .simple-search-wrapper .search-options::after, prm-journals-search-bar .simple-search-wrapper .search-options::after, prm-browse-search-bar .simple-search-wrapper .search-options::after, prm-tags-search-bar .simple-search-wrapper .search-options::after, prm-search-bar .simple-search-wrapper .search-options md-divider, prm-journals-search-bar .simple-search-wrapper .search-options md-divider, prm-browse-search-bar .simple-search-wrapper .search-options md-divider, prm-tags-search-bar .simple-search-wrapper .search-options md-divider, .prm-view-overlay-inner, .__xs prm-facet, .__sm prm-facet, .__sm .sidebar, .__xs .sidebar, .multiselect-submit .multiselect-submit-inner, prm-full-view-cont prm-recomendation-item .media-on-hover .pin-button, prm-full-view-cont .recommendations-title::after, prm-full-view-cont .recommendations-title prm-icon, md-virtual-repeat-container#prm-simple-search .md-autocomplete-suggestions md-divider, md-dialog md-toolbar:not(.md-menu-toolbar), md-card .card-content-block {
+    background-color:white;
+}
+
+/* Change the Advanced bar background */
+.prm-primary-bg, prm-search-bar, prm-spinner.overlay-cover.light-on-dark:after {
+    background-color: #ffffff;
+}
+
+/* End Search Bar background CSS */
+
+
+/* Homepage Alerts*/
+.alert-card {
+  padding:0;
+}
+
+.alert-card ul {
+  list-style: none;
+}
+
+.alert-content {
+  padding:0;
+}
+
+#rss_alert_feed {
+  border: 2px solid #ad000e;
+}
+
+.rss_alert_feed_title {
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 32px;
+  color: #ad000e;
+  font-weight: bold;
+	padding: 24px 16px 16px;
+}
+
+/* Make text in stackmap popup larger */
+.SMmore-info {
+  font-size:12pt !important;
+}
+
+.SMmap-buttons li a, .SMmap-buttons li button {
+  font-size: 12pt !important;
+}
+
+/* Make stackmap the right size and scrollable for all screens */
+.SMpopup {
+  height: 90vh;
+  overflow: scroll;
+    margin-top:5vh;
+}
+
+/* style stackmap headings */
+
+.SMheader {
+    font-weight: bold;
+    font-size: 20px !important;
+}
+
+/* scopes dropdown styling */
+
+md-divider {
+  display:none;
+}
+
+prm-tabs-and-scopes-selector {
+  background-color: #e7eaf0;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+/* Logo Padding */
+
+prm-logo .product-logo {
+    padding:.6em;
+}
+
+prm-logo #banner img {
+    height:100% !important;
+}
+
+prm-logo a, prm-logo a:hover, prm-logo a:focus {
+    color:white;
+    font-weight:600;
+    display:block;
+    height:50px;
+    font-size: 16px;
+    top:-10;
+}
+
+
+
+/* Main Background color to white */
+md-content, md-content.md-primoExplore-theme {
+    background-color: white;
+}
+
+/* Search Results area to white */
+.__sm .prm-hue2.sidebar, .__sm prm-facet.prm-hue2, .__sm prm-full-view-cont .recommendations-title::after, .__sm prm-full-view-cont .recommendations-title prm-icon, .__sm prm-full-view-cont .recommendations-wrapper, .__xs .prm-hue2.sidebar, .__xs prm-facet.prm-hue2, .__xs prm-full-view-cont .recommendations-title::after, .__xs prm-full-view-cont .recommendations-title prm-icon, .__xs prm-full-view-cont .recommendations-wrapper, .full-view-inner-container, .line-clamp-1::after, .line-clamp-2::after, .line-clamp-3::after, .line-clamp-4::after, .line-clamp-5::after, .list-item-wrapper, .prm-background.prm-hue2, .prm-full-view-dialog, .prm-horizontal-content .horizontal-content-item md-card > .md-button, .prm-hue2.prm-view-overlay-inner, .recommendations-title::after, .recommendations-title prm-icon, .tiles-grid-tile, .tiles-grid-tile .tile-content prm-spinner.overlay-cover::after, .tiles-grid-tile md-list prm-spinner.overlay-cover::after, body.prm-hue2, html.prm-hue2, md-card.default-card, md-card .prm-hue2.card-content-block, md-dialog md-toolbar.prm-hue2:not(.md-menu-toolbar), md-grid-tile, md-grid-tile .tile-content prm-spinner.overlay-cover::after, md-grid-tile md-list prm-spinner.overlay-cover::after, md-list.prm-list.prm-linkable-list-items md-list-item ._md-list-item-inner, md-virtual-repeat-container#prm-simple-search .md-autocomplete-suggestions md-divider.prm-hue2, prm-browse-search-bar .advanced-search-output md-card, prm-browse-search-bar .advanced-search-tabs, prm-browse-search-bar .simple-search-wrapper .prm-hue2.search-options::after, prm-browse-search-bar .simple-search-wrapper .search-options md-divider.prm-hue2, prm-browse-search md-list.prm-list.prm-linkable-list-items md-list-item ._md-list-item-inner, prm-full-view-cont .prm-hue2.recommendations-title::after, prm-full-view-cont .recommendations-title prm-icon.prm-hue2, prm-full-view-cont prm-recomendation-item .media-on-hover .prm-hue2.pin-button, prm-journals-search-bar .advanced-search-output md-card, prm-journals-search-bar .advanced-search-tabs, prm-journals-search-bar .simple-search-wrapper .prm-hue2.search-options::after, prm-journals-search-bar .simple-search-wrapper .search-options md-divider.prm-hue2, prm-recomendation-item .media-on-hover .pin-button, prm-recomendation-item .media-on-hover .pin-button:hover, prm-search-bar .advanced-search-output md-card, prm-search-bar .advanced-search-tabs, prm-search-bar .simple-search-wrapper .prm-hue2.search-options::after, prm-search-bar .simple-search-wrapper .search-options md-divider.prm-hue2, prm-search-result-list .results-footer, prm-search-result-list .results-header, prm-tags-results-list md-list.prm-list.prm-linkable-list-items md-list-item ._md-list-item-inner, prm-tags-search-bar .advanced-search-output md-card, prm-tags-search-bar .advanced-search-tabs, prm-tags-search-bar .simple-search-wrapper .prm-hue2.search-options::after, prm-tags-search-bar .simple-search-wrapper .search-options md-divider.prm-hue2 {
+    background-color: white;
+}
+
+/* Change heading text for the "news" area */
+.md-headline {
+   font-weight: bold; 
+   color: #923C07;
+}
+
+/* Changes to the text in the "News" area */
+.md-card-content {
+   background-color: white;
+} 
+
+
+
+/* Change the Advanced bar background */
+.prm-primary-bg, prm-search-bar, prm-spinner.overlay-cover.light-on-dark:after {
+    background-color: #ffffff;
+}
+
+
+/* Change Username/Guest color */
+prm-user-area .user-menu-button .user-name {
+    color: #923C07;
+}
+
+#fixed-buttons-holder * {
+  color: #173572 !important;
+}
+
+#favorites-button  {
+  background-color: #efefef !important;
+}
+
+
+/* Make changes to text in main menu */
+prm-main-menu[menu-type=menu] .md-button {
+    color: white;
+    max-width: 50em;
+    font-size: 0.95em;
+}
+
+#mainMenu a {
+  border-left: 1px solid rgb(209,210,212, .1);
+  border-right: 1px solid rgb(209,210,212, .1);
+}
+
+/* Change full main menu overlay */
+prm-main-menu .overlay-menu-content *{
+  color: #173572 !important;
+}
+
+prm-main-menu .overlay-menu-content {
+  background-color: rgba(255, 255, 255, .95);
+}
+
+#mainMenuFullCloseButton {
+  color: #173572;
+  background-color: #dddddd;
+}
+
+/* Changes to the facet text */
+.section-content .md-chips .md-chip .facet-title {
+    color: #173572;
+}
+
+/* Bold the "Tweak my Results" */
+h2 {
+    font-weight: bold;
+}
+
+
+/* Change back to Result List color to white 
+.md-button {
+    color: red;
+} */
+
+/* Change the Simple Search link */
+prm-browse-search-bar .search-switch-buttons .md-button.switch-to-simple, prm-journals-search-bar .search-switch-buttons .md-button.switch-to-simple, prm-search-bar .search-switch-buttons .md-button.switch-to-simple, prm-tags-search-bar .search-switch-buttons .md-button.switch-to-simple {
+    color: #173572;
+    font-weight: bold;
+}
+
+/* Change color for Advanced Search bar link */
+prm-browse-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-journals-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-search-bar .search-switch-buttons .md-button.switch-to-advanced, prm-tags-search-bar .search-switch-buttons .md-button.switch-to-advanced {
+     color: #173572;
+     font-weight: bold;
+}
+
+/* Change "Clear" Button in Advanced Search interface */
+.md-button.button-notice:hover:not([disabled]), .md-button.button-notice:focus:not([disabled]), .md-button.button-notice.hovered:not([disabled]), .md-button.button-notice.md-focused:not([disabled]), .md-button.button-notice._md-focused:not([disabled]) {
+    color: #923C07;
+    background-color:#FEFBF6;
+}
+
+.md-button.button-notice {
+    color: #923C07;
+}
+
+
+
+/* Change Journals/Browse Search bar */
+.prm-primary-bg, prm-browse-search-bar, prm-journals-search-bar, prm-search-bar, prm-spinner.overlay-cover.light-on-dark:after, prm-tags-search-bar {
+     background-color: #000000;
+}
+
+/* Change the border between "Journal Search/Browse by" and the search box  */
+.bar.alert-bar, .classic-input .search-scope, .prm-alert-border {
+    border-color: #173572;
+}
+
+/* Change the "Journal Search/Browse by" background from yellow/black to blue/white */
+.bar.alert-bar, .classic-input .search-scope, .prm-alert-bg {
+    background-color: #173572;
+    color: white;
+}
+
+/* Sign in Alert bar color */
+.bar.alert-bar {
+    color: black;
+    /* background-color: #d1deff;
+    border-color: #d1deff; */
+    background-color: #f47c30;
+    border-color: #f47c30;
+}
+
+.bar-text {
+    line-height:15px;
+}
+
+prm-alert-bar > div > div {
+  padding:0px !important;
+  margin:0px !important;
+  height:33px !important;
+  min-height:33px !important;
+  font-weight: 500;
+  padding-top: 3px !important;
+}
+
+.alert-bar button {
+    color: #041020 !important;
+}
+
+/* Change search term highlighting */
+
+.text-highlight, mark {
+    box-shadow: inset 0 -.3em 0 0 #ffbe8c;
+}
+
+/*MAY 2017 RELEASE*/
+/*HIDE TAGS*/
+#tags
+{
+    display: none;
+}
+button[aria-label=Tags]
+{
+    display: none;
+}
+
+/* Journal search alphabet list color change and increase size */
+prm-alphabet-toolbar .md-button {
+    margin: 0;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    min-height: 30px;
+    min-width: 30px;
+    width: auto;
+    color: #173572;
+    font-size: large;
+    font-weight: 700;
+
+}
+
+prm-alphabet-toolbar .md-button._md-focused:not([disabled]), prm-alphabet-toolbar .md-button.hovered:not([disabled]), prm-alphabet-toolbar .md-button.md-focused:not([disabled]), prm-alphabet-toolbar .md-button:focus:not([disabled]), prm-alphabet-toolbar .md-button:hover:not([disabled]) {
+    color: white;
+    background-color: #173572;
+}
+
+
+
+@media (min-width: 0) and (max-width: 959px) and (orientation: landscape) {
+    /*
+    .feedback {
+      position:fixed;
+      left:4vw;
+      bottom: 1vw;
+      padding:0;
+    }
+
+    prm-logo-after {
+        position: relative;
+        z-index:100000 !important; 
+    }
+    
+    .libraryh3lp  {
+        position:fixed;
+      right:4vw;
+      bottom: 1vw;      
+    }
+    */
+    
+    .md-toolbar-tools, md-toolbar.bottom-fixed-toolbar {
+    padding-left:0;
+    padding-right:0;
+    width:50vw;
+    float:right;
+   }
+}
+
+
+/* Position Chat Widget and feedback button */
+
+/* Old Code for when it was in the prm-logo-after directive. This didn't work because
+of some weirdness with how z-index works and stacking contexts. Info here:
+https://philipwalton.com/articles/what-no-one-told-you-about-z-index/ 2018-01-09
+
+prm-logo-after {
+    position: fixed;
+    z-index:100000 !important;
+    top:25vh;
+    right: 4vw;  
+}
+
+prm-logo-after * {
+    z-index:100000 !important;
+}
+
+prm-logo-after img {
+    max-width: 120px;
+    width: 10vw;
+    min-width: 80px;
+}
+
+prm-logo-after, prm-logo-after a, prm-logo-after a:hover, prm-logo-after a:focus {
+    color:#173572;
+    font-weight:600;
+    display:block;
+    font-size: 16px;
+    min-width:unset;
+    height:100%;
+}
+
+*/
+
+prm-search-bar-after {
+    position: fixed;
+    z-index:100000 !important;
+    top:25vh;
+    right: 4vw;  
+}
+
+prm-search-bar-after * {
+    z-index:100000 !important;
+}
+
+prm-search-bar-after img {
+    max-width: 120px;
+    width: 10vw;
+    min-width: 80px;
+}
+
+prm-search-bar-after, prm-search-bar-after a, prm-search-bar-after a:hover, prm-search-bar-after a:focus {
+    color:#173572;
+    font-weight:600;
+    display:block;
+    font-size: 16px;
+    min-width:unset;
+    height:100%;
+}
+
+
+.libraryh3lp a {
+    display:block;
+    padding:0;      
+}
+
+/* Full Display Page - widen navigation menu*/
+prm-full-view .services-index-under #services-index {
+    max-width: 200px;
+}
+
+.full-view-section, prm-full-view prm-brief-result-container .result-item-text {
+    padding-left: 6em;
+}
+
+prm-brief-result .item-title span {
+    color:#173572;
+}
+
+/* Services Page */
+
+prm-services-page .mashup-iframe {
+    height:1000px;
+}
+
+
+/* Make User area header same color as initial header */
+
+prm-user-area * {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+prm-user-area {
+    background-color: transparent;
+}
+
+prm-user-area *, prm-search-bookmark-filter * {
+  color: white !important;
+  font-size: 16px;
+}
+
+
+/* Facet Publication date background boxes to grey */
+md-input-container .md-input[aria-label="From date"]{
+    -ms-flex-order: 2;
+    order: 2;
+    display: block;
+    margin-top: 0;
+    background: none;
+    padding: 2px 2px 1px;
+    border-width: 0 0 1px;
+    line-height: 26px;
+    height: 30px;
+    -ms-flex-preferred-size: 26px;
+    border-radius: 0;
+    border-style: solid;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    background-color: #EBEBEB;
+}
+
+md-input-container .md-input[aria-label="To date"]{
+    -ms-flex-order: 2;
+    order: 2;
+    display: block;
+    margin-top: 0;
+    background: none;
+    padding: 2px 2px 1px;
+    border-width: 0 0 1px;
+    line-height: 26px;
+    height: 30px;
+    -ms-flex-preferred-size: 26px;
+    border-radius: 0;
+    border-style: solid;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    background-color: #EBEBEB;
+}
+
+/* Facet publication date From and To text darker and larger */
+md-input-container.md-input-focused label:not(.md-no-float), md-input-container.md-input-has-placeholder label:not(.md-no-float), md-input-container.md-input-has-value label:not(.md-no-float) {
+    opacity: 1;
+    transform: translate3d(0,6px,0) scale(0.90);
+    color: black;
+}
+
+
+/* Active facets with orange background and black text */
+.md-chips .md-chip {
+    background-color: #ffe7d4;
+    height: 28px;
+    line-height: 28px;
+    position: relative;
+    color: black;
+}
+
+/* Keep persistent facets orange*/
+persistence-button md-icon-button md-primary md-button md-primoExplore-theme md-ink-ripple{
+    background-color: #ffe7d4;
+}
+prm-breadcrumbs .md-chip.persistent-facet {
+    background-color: #ffe7d4;
+}
+
+/* Change brief results z-index to prevent covering the widget on hover */
+prm-brief-result-container {
+    z-index:0;
+}
+
+
+/* Make links Brandeis blue */
+.prm-links, .md-button.arrow-link-button [link-arrow], a, .md-button.arrow-link-button .button-content, [class*="NFT"] > span,
+[class*="check_"] > span,
+[class*="_more"] > span,
+[class*="_unknown"] > span,
+[class*="may_"] > span,
+[class*="does_not_exist"] > span,
+.woldcat > span,
+.getit > span, [class*="available"] > span,
+[class*="FT"] > span,
+.not_restricted > span,
+.fulltext > span,
+.fulltext_linktorsrc > span, [class*="unavailable"] > span,
+[class*="no_"] > span,
+.restricted > span,
+.duedate > span, .login-dialog md-list md-list-item .md-list-item-text h3,
+.login-dialog md-list md-list-item .md-list-item-text .list-item-title,
+.login-dialog md-list md-list-item > .md-no-style .md-list-item-text h3,
+.login-dialog md-list md-list-item > .md-no-style .md-list-item-text .list-item-title,
+.login-dialog .md-list md-list-item .md-list-item-text h3,
+.login-dialog .md-list md-list-item .md-list-item-text .list-item-title,
+.login-dialog .md-list md-list-item > .md-no-style .md-list-item-text h3,
+.login-dialog .md-list md-list-item > .md-no-style .md-list-item-text .list-item-title,
+.login-dialog .md-list[class$="-line"] md-list-item .md-list-item-text h3,
+.login-dialog .md-list[class$="-line"] md-list-item .md-list-item-text .list-item-title,
+.login-dialog .md-list[class$="-line"] md-list-item > .md-no-style .md-list-item-text h3,
+.login-dialog .md-list[class$="-line"] md-list-item > .md-no-style .md-list-item-text .list-item-title, .login-dialog .collapsable-container md-list md-list-item .md-list-item-inner, prm-tags-list .md-chips .md-chip .md-chip-content strong, prm-tags-list .md-chips md-chip .md-chip-content strong, prm-tags-list md-chips .md-chip .md-chip-content strong, prm-tags-list md-chips md-chip .md-chip-content strong, md-tabs.tabs-as-links md-tab-item,
+md-tabs.tabs-as-links md-tab-item:not([disabled]), md-tabs.tabs-as-app .back-button, md-grid-tile .tile-header .header-link .arrow-icon,
+.tiles-grid-tile .tile-header .header-link .arrow-icon, md-grid-tile .tile-header .header-link:hover, md-grid-tile .tile-header .header-link:focus,
+.tiles-grid-tile .tile-header .header-link:hover,
+.tiles-grid-tile .tile-header .header-link:focus, md-grid-tile .tile-header .md-button,
+.tiles-grid-tile .tile-header .md-button, md-input-container.has-fixed-message [ng-message] a, .separate-list-items md-list-item .item-loader-with-text .md-button, md-list-item.list-item-as-link {
+  color: #173572; }
+  .prm-links-important, .text-link {
+    color: #173572 !important; }
+
+/* Make available things dark green, and make unavailable things (check holdings) dark purple */
+
+.prm-notice, .status-maybe, [class*="NFT"],
+[class*="check_"],
+[class*="_more"],
+[class*="_unknown"],
+[class*="may_"],
+[class*="does_not_exist"],
+.woldcat,
+.getit, prm-search-result-frbr-line a > prm-icon:first-child, prm-search-result-frbr-line .md-button.arrow-link-button .button-content > prm-icon:first-child, .md-button.arrow-link-button prm-search-result-frbr-line .button-content > prm-icon:first-child {
+  color: #351772; }
+
+.prm-positive, .status-available, [class*="available"],
+[class*="FT"],
+.not_restricted,
+.fulltext,
+.fulltext_linktorsrc {
+  color: #0c3b2b; }
+
+span[translate="delivery.and.other.locations"] {
+    padding-left:5px;
+}
+
+
+/* Fix overlay full main menu at certain widths so there is no overlap */
+@media only screen and (min-width: 600px) and (max-width: 959px) {
+  
+prm-main-menu[menu-type="full"] .custom-links-container {
+    margin-top:6em !important;
+}
+}
+
+

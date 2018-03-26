@@ -1,0 +1,105 @@
+
+<md-content layout-xs="column" layout="row">
+    <div flex="100" layout="column">
+        <md-card class="alert-card">
+            <md-card-content class="alert-content">
+                <div ng-controller="scholarTextCtrl"><div ng-bind-html="scholarText"></div></div>
+            </md-card-content>
+        </md-card>
+        <md-card class="alert-card">
+            <md-card-content class="alert-content">
+                <div ng-controller="alertTextCtrl"><div ng-bind-html="alertText"></div></div>
+            </md-card-content>
+        </md-card>
+        <md-card class="default-card">
+            <md-card-title>
+                <md-card-title-text>
+                    <h2><span class="md-headline">What is OneSearch? What does it do?</span></h2>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <p>OneSearch is the Brandeis Library's main catalog and database search tool. 
+                   <ul style="list-style-type:disc">
+                      <li><strong>Library Catalog</strong>:  Use this option to search for physical items (books, print journals, DVDs, etc.), ebooks, and streaming media owned by the library. </li>
+                      <li><strong>Articles & More</strong>: Use this option to search across many databases of articles in journals, newspapers, magazines, encyclopedias, and dictionaries.</li>
+                      <li><strong>All OneSearch</strong>: Use this option to search both the Library Catalog and Articles & More.</li>
+                      <li><strong>Course Reserves</strong>: Use this option to search for books that have been set aside for your courses.</li>
+                   </ul> 
+                </p>
+                <p>For more information, see our <a href="/primo_library/libweb/uploaded_files/BRAND/faq.html" target="_blank">FAQ.</a>
+                </p>
+            </md-card-content>
+        </md-card>
+    </div>
+</md-content>
+
+<md-content layout-xs="column" layout="row">
+        <div flex="100" layout="column">
+        <md-card class="default-card">
+            <md-card-title>
+                <md-card-title-text>
+                    <h2><span class="md-headline">Featured Resource</span></h2>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <div ng-controller="featuredTextCtrl"><div ng-bind-html="featuredText"></div></div>
+            </md-card-content>
+        </md-card>
+    </div>
+</md-content>
+
+<md-content layout-xs="column" layout="row">
+    <div flex="33" layout="column">
+        <md-card class="default-card">
+            <md-card-title>
+                <md-card-title-text>
+                    <h2><span class="md-headline">Find More</span></h2>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <a href="http://databases.library.brandeis.edu/">Find Databases</a><br />
+                <a href="http://mrmt.library.brandeis.edu/newbooks/" target="_blank">New Books</a><br />
+                <a href="http://brandeis.on.worldcat.org/">WorldCat</a><br />
+                <a href="http://bir.brandeis.edu/">Brandeis Institutional Repository</a><br />
+                <a href="http://lts.brandeis.edu/research/books_articles/articles/database-trials.html">Database Trials</a><br />
+                <br />
+            </md-card-content>
+        </md-card>
+    </div>
+
+    <div flex-xs flex="33" layout="column">
+        <md-card class="default-card">
+            <md-card-title>
+                <md-card-title-text>
+                    <h2><span class="md-headline">Library Services</span></h2>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <a href="http://lts.brandeis.edu/about/location/index.html">Hours &amp; Locations</a><br />
+                <a href="http://lts.brandeis.edu/research/borrowing/">Borrowing</a><br />
+                <a href="http://brandeis.libguides.com/interlibraryloan" target="_blank">InterLibrary Loan (ILL)</a><br />
+                <a href="http://lts.brandeis.edu/research/books_articles/books/reqpurchase.html">Suggest a Library Purchase</a><br />
+                <a href="http://lts.brandeis.edu/research/archives-speccoll/">Archives &amp; Special Collections</a><br />
+                <a href="http://latte.brandeis.edu/">LATTE</a><br />
+            </md-card-content>
+        </md-card>
+     </div>
+
+     <div flex-xs flex="33" layout="column">
+        <md-card class="default-card">
+            <md-card-title>
+                <md-card-title-text>
+                    <h2><span class="md-headline">Get Help</span></h2>
+                </md-card-title-text>
+            </md-card-title>
+            <md-card-content>
+                <a href="http://brandeis.libguides.com/eresources">E-Resource Help</a><br />
+                <a href="http://lts.brandeis.edu/research/help/index.html">Ask a Librarian</a><br />
+                <a href="http://brandeis.libguides.com/citations">Citation Management</a><br />
+                <a href="http://brandeis.libguides.com/">Research Guides</a><br />
+                <a href="http://lts.brandeis.edu/techhelp/content/helpdesk/helpdesk.html">Technology Help Desk</a><br />
+                <br />
+            </md-card-content>
+        </md>
+     </div>        
+</md-content>

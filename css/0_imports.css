@@ -1,0 +1,10 @@
+
+/* This file is named 0_import.css so that it's contents are copied first into custom1.css by the primo gulp development environment */
+@import url('https://fonts.googleapis.com/css?family=Khula');
+
+/* Change Font */
+
+body, body * {
+font-family: Khula,Source Sans Pro,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+}
